@@ -49,8 +49,7 @@ li a {
 }
 
 a img {
-    width: 11vh;
-    height: 11vh;
+    width: 150px;
 }
 
 li button {
@@ -193,8 +192,8 @@ section h1{
 }
 
 .card-aval{
-  width: 22rem;
-  height: 23rem;
+  width: 21rem;
+  height: 22rem;
   background-color: #f1f1f1;
   display: flex;
   justify-content: center;
@@ -225,7 +224,6 @@ section h1{
   color: gold;
 }
 
-
 .conteudoAva p{
   margin-top: 15px;
 }
@@ -253,14 +251,16 @@ section h1{
   width: 10rem;
   padding: 7px;
   border-radius: 6px;
+  margin-top: 10px;
 }
 
 #fale textarea{
-  width: 50%;
+  width: 70%;
   margin: 0 auto;
   padding: 25px 0 25px 0;
   border-radius: 6px;
   resize: none;
+  margin-top: 10px;
   margin-bottom: 20px;
 }
 
@@ -302,6 +302,7 @@ footer div {
   text-align: justify;
   gap: 20px;
   white-space: nowrap;
+  padding-bottom: 20px;
 }
 
 footer i {
