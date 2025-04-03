@@ -106,8 +106,9 @@ section h1{
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   gap: 200px;
-  margin-top: 30px;
+  margin-top: 100px;
 }
 
 .card-vest {
@@ -292,7 +293,6 @@ footer img {
   justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
-  margin-bottom: 20px;
 }
 
 footer div {
@@ -330,13 +330,11 @@ footer h4 {
     height: 15vh;
   }
 
-  .cont-cards {
-    justify-content: flex-start;
-    overflow-x: auto;
-    scroll-behavior: smooth;
+  .conteudo:focus-within .inf {
+    opacity: 1;
   }
 
-  .cont-cards::-webkit-scrollbar {
-    display: none;
+  footer{
+    padding-bottom: 20px;
   }
 }
