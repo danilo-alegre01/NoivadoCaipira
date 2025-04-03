@@ -1,5 +1,6 @@
 body {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/fundo.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../img/fundo.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -49,7 +50,7 @@ li a {
 }
 
 a img {
-    width: 150px;
+  width: 150px;
 }
 
 li button {
@@ -69,20 +70,20 @@ header {
   text-align: center;
 }
 
+header h1 {
+  font-size: clamp(2em, 5vw, 2.5em);
+}
 
 main {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-main h1 {
   margin-top: 50px;
 }
 
-section h1{
-  font-size: 2em;
+section h1 {
+  font-size: clamp(1.5em, 4vw, 2em);
 }
 
 .image {
@@ -160,9 +161,9 @@ section h1{
 }
 
 .inf p {
-  width: 85%; 
-  text-align: center; 
-  padding: 10px; 
+  width: 85%;
+  text-align: center;
+  padding: 10px;
   line-height: 18px;
 }
 
@@ -186,12 +187,12 @@ section h1{
   cursor: pointer;
 }
 
-#avaliacoes{
+#avaliacoes {
   text-align: center;
   margin-top: 150px;
 }
 
-.card-aval{
+.card-aval {
   width: 21rem;
   height: 22rem;
   background-color: #f1f1f1;
@@ -202,20 +203,20 @@ section h1{
   cursor: pointer;
 }
 
-.conteudoAva{
+.conteudoAva {
   color: black;
 }
 
-.conteudoAva img{
+.conteudoAva img {
   width: 100px;
   border-radius: 100%;
 }
 
-.stars{
+.stars {
   margin-top: 15px;
 }
 
-.stars i{
+.stars i {
   font-size: 1.7em;
   color: gray;
 }
@@ -224,11 +225,11 @@ section h1{
   color: gold;
 }
 
-.conteudoAva p{
+.conteudoAva p {
   margin-top: 15px;
 }
 
-#fale{
+#fale {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -237,7 +238,7 @@ section h1{
   margin-top: 150px;
 }
 
-.textfield{
+.textfield {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -247,14 +248,14 @@ section h1{
   margin-top: 10px;
 }
 
-#fale input[type=text]{
+#fale input[type="text"] {
   width: 10rem;
   padding: 7px;
   border-radius: 6px;
   margin-top: 10px;
 }
 
-#fale textarea{
+#fale textarea {
   width: 70%;
   margin: 0 auto;
   padding: 25px 0 25px 0;
@@ -264,7 +265,7 @@ section h1{
   margin-bottom: 20px;
 }
 
-#fale button{
+#fale button {
   width: 10rem;
   padding: 10px;
   margin: 0 auto;
@@ -275,7 +276,7 @@ footer {
   backdrop-filter: blur(10px);
   margin-top: 100px;
   width: 100%;
-  height: 50vh;
+  height: 40vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -287,7 +288,7 @@ footer img {
   margin-bottom: 10px;
 }
 
-.contatoInf{
+.contatoInf {
   width: 100%;
   display: flex;
   justify-content: space-evenly;
@@ -315,18 +316,17 @@ footer h4 {
   margin: 0;
 }
 
-
 @media screen and (max-width: 730px) {
-  body{
+  body {
     background-position: right center;
     background-attachment: scroll;
   }
 
-  ul li{
+  ul li {
     display: none;
   }
 
-  a img{
+  a img {
     width: 15vh;
     height: 15vh;
   }
@@ -336,6 +336,7 @@ footer h4 {
   }
 
   footer{
-    padding-bottom: 20px;
+    height: 60vh;
   }
+
 }
